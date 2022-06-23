@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
   });
 });
 
-  router.get("/:month", async (req, res) => {
+  router.get("/month/:month", async (req, res) => {
     const pupil = await Pupil.find({ month: req.params.month }).sort({score: -1})
     res.render("month", {
       pupil,
