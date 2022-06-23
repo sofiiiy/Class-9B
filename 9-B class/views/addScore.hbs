@@ -1,0 +1,15 @@
+<form action="/pupil/score/{{addScore.id}}" method="post">
+  <div class="addd">
+    <label class="lmp" for="name">Add score</label>
+    <input
+      class="imp"
+      type="number"
+      name="addScore"
+      id="addScore"
+      placeholder="Add score"
+    />
+    <input type="hidden" name="oldScore" id="{{id}}" value={{addScore.score}} />
+  </div>
+  <input class="isub" type="submit" />
+
+</form>

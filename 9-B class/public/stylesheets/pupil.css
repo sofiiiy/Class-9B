@@ -1,0 +1,78 @@
+.pupils {
+  width: 900px;
+  margin: auto;
+  padding: 50px 0 50px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.pupil_add {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: green;
+}
+table {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.add {
+  padding: 10px;
+  max-width: 700px;
+  border: 2px solid rgb(21, 55, 222);
+  margin: 100px auto;
+  background: rgb(144, 197, 233);
+}
+
+.add input {
+  display: inline-block;
+  margin: 10px 5px;
+  width: 200px;
+  height: 30px;
+}
+form {
+  width: 450px;
+  margin: auto;
+}
+
+.btn_add {
+  width: 200px;
+  padding: 10px;
+  margin-left: 125px;
+}
+
+.addd {
+  width: 200px;
+  margin: 100px auto 0;
+}
+label {
+  display: block;
+  font-size: 20px;
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+
+.isub {
+  margin-left: 173px;
+  margin-top: 15px;
+}
+.plus{
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}

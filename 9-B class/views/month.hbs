@@ -1,0 +1,35 @@
+<div class="pupils">
+  <table>
+    {{#if pupil}}
+    <h2>They study in this month</h2>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Number</th>
+          <th>Group</th>
+          <th>Month</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      {{#each pupil}}
+        <tr>
+
+          <td>{{name}}</td>
+          <td>{{surname}}</td>
+          <td>{{number}}</td>
+          <td>{{group}}</td>
+          <td>{{month}}</td>
+          <td>{{score}} <a href="/pupil/{{id}}" class="plus">+</a></td>
+        </tr>
+      {{/each}}
+    {{else}}
+      <h2>Nobody studies in this month</h2>
+    {{/if}}
+  </table>
+
+  <div class="add_pupil">
+    <a class="pupil_add" href="/pupil/add">Add pupil</a>
+  </div>
+  <script src="/script/findId.js"></script>
+</div>
